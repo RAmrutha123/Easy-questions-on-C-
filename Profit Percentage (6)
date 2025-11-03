@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    double x,y;
+    scanf("%lf %f",&x,&y);
+    double z=((y-x)/x)*100;
+    printf("%.21f",z);
+    return 0;
+}
