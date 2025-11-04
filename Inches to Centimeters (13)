@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+  int height;
+  scanf("%d",&height);
+  float cen=height*2.54;
+  printf("%.2f",cen);
+  return 0;
+}
