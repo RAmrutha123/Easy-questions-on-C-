@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int day,r,w,r1;
+    scanf("%d",&d);
+    y=d/365;
+    r=d%365;
+    w=r/7;
+    r1=r%7;
+    printf("%d
+    ",y);
+    printf("%d ",w);
+    return 0;
+}
