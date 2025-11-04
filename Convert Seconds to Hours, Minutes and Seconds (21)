@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    long d,h,m,s,r;
+    scanf("%ld",&d);
+    h=d/3600;
+    r=d%3600;
+    m=r/60;
+    s=r%60;
+    printf("H:M:S-%ld:%ld:%ld",h,m,s);
+    return 0;
+
+}
