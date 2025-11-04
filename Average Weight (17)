@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int x,w1,w2;
+    scanf("%d %d %d",&x,&w1,&w2);
+    int a=w1+w2;
+    int boy3=(x*3-a);
+    printf("%d", boy3);
+    return 0;
+}
