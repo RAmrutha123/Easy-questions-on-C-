@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+int n;
+double r;
+scanf("%d",&n);
+r=(n*5.0)/18.0;
+printf("%.2f",r);
+return 0;
+}
