@@ -1,0 +1,12 @@
+
+#include<stdio.h>
+int main()
+{
+    float s,h,d;
+    scanf("%f %f %f",&s,&h,&d);
+    float pf=(s/100)*12;
+    float g=(s+h+d+pf);
+    printf("%.2f",pf);
+    printf("%.2f",g);
+    return 0;
+}
