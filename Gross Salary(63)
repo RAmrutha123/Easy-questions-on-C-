@@ -1,0 +1,20 @@
+
+#include<stdio.h>
+int main()
+{
+    int s,d,h;
+    float g;
+    scanf("%d",&s);
+    if(s<=10000)
+      {
+        d=(s/100)*80;
+        h=(s/100)*20;
+…    else
+    {
+        d=(s/100)*95;
+        h=(s/100)*30;
+        g=s+d+h;
+        printf("%.2f",g);
+    }
+    return 0;
+}
