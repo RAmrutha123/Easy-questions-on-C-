@@ -1,0 +1,13 @@
+
+#include<stdio.h>
+int main()
+{
+    int x,y;
+    scanf("%d %d",&x,&y);
+    int z=x*5;
+    if(z>=y)
+     printf("YES");
+    else
+     printf("NO");
+    return 0;
+}
