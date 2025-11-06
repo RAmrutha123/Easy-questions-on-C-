@@ -1,0 +1,14 @@
+
+#include<stdio.h>
+int main()
+{
+    int x,y;
+    scanf("%d",&x);
+    scanf("%d",&y);
+    int p=y*30;
+    if(x>=p)
+     printf("YES");
+    else
+     printf("NO");
+    return 0;
+}
