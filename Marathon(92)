@@ -1,0 +1,16 @@
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,cou=0;
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+    if(b>a)
+      cou++;
+    if(c>a)
+      cou++;
+    if(d>a)
+      cou++;
+    printf("%d",cou);
+    return 0;
+
+}
