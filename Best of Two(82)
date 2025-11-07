@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int a1, a2, a3, b1, b2, b3, a, b;
+    scanf("%d %d %d %d %d %d", &a1, &a2, &a3, &b1, &b2, &b3);
+    if(a1<=a2 && a1<=a3)
+        a=a2+a3;
+    else if(a2<=a1 && a2<=a3)
+        a=a1+a3;
+    else
+        a=a1+a2;
+    if(b1<=b2 && b1<=b3)
+        b=b2+b3;
+    else if(b2<=b1 && b2<=b3)
+        b=b1+b3;
+    else
+        b=b1+b2;
+    if(a>b)
+        printf("Alice");
+    else if(b>a)
+        printf("Bob");
+    else
+        printf("Tie");
+    return 0;
+}
