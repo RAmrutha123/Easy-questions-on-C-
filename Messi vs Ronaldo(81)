@@ -1,0 +1,16 @@
+
+#include<stdio.h>
+int main()
+{
+    int a,b,x,y;
+    scanf("%d %d %d %d",&a,&b,&x,&y);
+    int c=a*2+b*1;
+    int z=x*2+y*1;
+    if(c>z)
+     printf("Messi");
+    else if(c<z)
+     printf("Ronaldo");
+    else 
+     printf("Equal");
+    return 0;
+}
