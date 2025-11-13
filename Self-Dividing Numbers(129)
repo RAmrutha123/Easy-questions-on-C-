@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,i,n,ok,d;
+    scanf("%d %d",&a,&b);
+    for(i=a;i<=b;i++)
+    {
+        n=i,ok=1;
+        while(n)
+        {
+            d=n%10;
+            if(d==0||i%d)
+            {
+                ok=0;
+                break;
+            }
+            n=n/10;
+        }
+        if(ok)
+            printf("%d ",i);
+    }
+    return 0;
+}
