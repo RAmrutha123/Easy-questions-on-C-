@@ -1,0 +1,32 @@
+
+12345
+1234*
+123**
+12***
+1**** 
+
+
+
+#include<stdio.h>
+int main()
+{
+    int n,i,j,k;
+    scanf("%d",&n);
+    for(i=n;i>=1;i--)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%d",j);
+        }
+        for(k=1;k<=n-i;k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+Compiler Response
+#	Testcase	Input	Expected Output	Your Output	Memory	CPU time	Result
+1	5	5	12345 1234* 123** 12*** 1****	12345 1234* 123** 12*** 1****	1408 KB	2.668 ms	Pass
+All hidden testcases passed
